@@ -79,7 +79,7 @@ command exegol shellerator
 nc -lnvp 1337 (c'était le port)
 
 ## Jeudi
-10:00 -> 10:30 : Architecture
+10:30 -> 11:15 : Architecture
 qu'est ce qu'un diagramme de contexte C4 ?
 -On doit penser d'abord problème avant solution
 -négocier l'architecture, et éduquer 
@@ -102,4 +102,13 @@ voir pubSub, (et les autres)
 phillipe bordeau (à voir l'orthographe)
 -penser baby steps pouf apprendre beaucoup et petit 
 regarder ce qu'est mcp
+
+11:35 -> 12:20 booster démarrage des app java
+-Lazy initialization
+voir servlet, AOP et reflection
+voir hibrenate sur jarvis ?
+voir ce que c'est que le staging / canary
+
+voir jpbempel (son github)
+google/kube-startup-cpu-boost
 
