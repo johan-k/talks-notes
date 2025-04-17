@@ -138,3 +138,24 @@ on peut utiliser PE studio
 process explorer et process monotor idspo sur windows pour voir ce qui se passe
 
 de4dot permet de desobfusqué du code
+
+
+17:00 - 17:30 : Spark4 et iceberg
+
+17:50 - 18:20 : {Cloud || Container} Development Environment
+C2 sur du cloud vs C2 container 
+C2 distant (cloud development environment - CDE) : aucune conf en local, plus vite opérationel 
+C2 distant : zenika-open-source/the-duck-gallery
+github.com -> github.dev, et la on a un env vscode distant, c'est ouf !!!!!
+CDE : google va arrêter google CDX, mais Firebase studio va remplacer
+ca se base sur le fichier .idx/dev.nix
+autre possibilité : gitpod
+ou sinon ... jetbrains gateway !
+ou devpod
+
+==
+CDE : Container development environment (meme nom ??)
+faut installer l'extension devcontiner (au moins pour vscode, voir pour intellij)
+
+
+il est possible aussi d'utiliser la solution google Cloud Workstation
