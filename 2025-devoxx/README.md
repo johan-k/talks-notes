@@ -1,5 +1,7 @@
 # Devoxx France 2025
 
+## Mercredi
+
 09:00 -> 09:45 : l'intelligence artificienne n'existe pas 
 livre de luc julia : l'intellogence artificielle n'existe pas
 voir : avocat de new york qui a généré une plaidoirie pour un cas d'un avion
@@ -46,4 +48,58 @@ jib permet de construire une image docker sans dockerfile
 ovh a octavia en service de load balancing
 
 son travail : https://github.com/johan-k/java-full-stack-devoxx25/tree/talk
+
+
+17:00 -> 17:30 ça marche dans mon .devcontainer
+
+un conteneur c'est une sortie d'un processus de build
+voir ce qu'est J env
+il faut : 
+-docker
+-vscode
+-extention devcontener
+
+voir la doc .devcontainer
+bmoussaud / devcontainer_random_api : https://github.com/bmoussaud/devcontainer_random_api
+
+dans vscode : reopen dans container, dans doceker on voir que l'on a le devcontainer/python3.12 qui vient de démarrer (dans command palette)
+on peut aussi clone repository in a container et la on le trouvera dans la partie volume du docker desktop
+
+on peut ajouter des container feature par vscode pour avoir par exemple la lib Vegeta
+
+codespace peut héberger son environnement github
+
+
+17:50 -> 18h20
+exegol : onstallation, la taille des image peux etre volumineuse
+
+COMMAND Burpsuite, une sorte de proxy sous steroide, intercepter des requetes et les envoyer
+plugin chrome wappanalyser
+command exegol shellerator
+nc -lnvp 1337 (c'était le port)
+
+## Jeudi
+10:00 -> 10:30 : Architecture
+qu'est ce qu'un diagramme de contexte C4 ?
+-On doit penser d'abord problème avant solution
+-négocier l'architecture, et éduquer 
+-Penser modulaire
+-toute solution amène de nouveau problème, les solutions distribuées en amènent plus
+-preagmatic but not naive 
+voir pubSub, (et les autres) 
+-prévoir des options pas cher pour éviter les décisions irreversibles
+-On sait que ca ne marche pas, c'est génial ! surtout quand c'est très tot
+-Reconnaissez les problèmes difficiles et déléguez les à d'autres (fournisseurs de service par exemple)
+-art du tradeoffs (compromis)
+-idempotence = important
+-architecture est dynamique
+-contract: on ne veut pas de breaking change, et si l'api est publiée, elle n'est plus à nous 
+-garder trace des décisions (par une ADR)
+-Tester son architecture (comme ArchUnit)
+-Timeboxer les décision d'archi
+-Aller au tableau
+-alterner le résonnement individuel et collectif : exemple chacun prend 15 min pour voir sa solution, sans la justifier, et on met en commun
+phillipe bordeau (à voir l'orthographe)
+-penser baby steps pouf apprendre beaucoup et petit 
+regarder ce qu'est mcp
 
