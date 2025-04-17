@@ -112,3 +112,29 @@ voir ce que c'est que le staging / canary
 voir jpbempel (son github)
 google/kube-startup-cpu-boost
 
+13:30 -> 14:15 : Dans les coulisses des licornes géantes de la tech !
+-efficiency without learning is waste, motion != progress
+regarder how might wwe et Opportunity solution tree
+Data Insight Believe Best (DIBB)
+-learning pipeline != delivery pipeline
+-système nerveux, systeme immunitaire et système respiratoire
+-discovery + delivery = one flow, one team
+-one refacto a day, keeps doctor at bay
+delivery -> dibb - business kpi - business case
+OKR c'est ?
+-delivery = experimentation, not implementation
+
+
+15:40 - 16:25 : Et si on parlait de malware craftmanship ?
+Dev#Popper
+
+matrice de .. qui fait TTP : tactique techniques et procedures
+
+hybrid analysis, virustotal ou malwares.com sont des sites qui détectent des antivirus
+
+pour faire son propre lab : flare vm et REMux
+on peut utiliser PE studio
+
+process explorer et process monotor idspo sur windows pour voir ce qui se passe
+
+de4dot permet de desobfusqué du code
